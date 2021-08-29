@@ -31,7 +31,7 @@ public class Corrida {
 
         if (listaDeVeiculos.size() < quantidadeDeVeiculosPermitidos){
             Moto moto = new Moto(velocidade, aceleracao, anguloDeVirada, patente, placa);
-            listaDeVeiculos.put(placa, moto)
+            listaDeVeiculos.put(placa, moto);
         } else {
             System.out.println("Limite de inscriçoes atingido!");
         }
@@ -85,7 +85,7 @@ public class Corrida {
     }
 
     public void setPremioEmDolares(Double premioEmDolares){
-        this.premioEmDolares = premioEmDolares
+        this.premioEmDolares = premioEmDolares;
     }
 
     public String getNome(){
